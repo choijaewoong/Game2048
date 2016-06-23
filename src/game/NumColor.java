@@ -2,31 +2,15 @@ package game;
 
 import java.awt.Color;
 
-public class HSBColor {
+public class NumColor {
 
 	HSBColorData color;
 	int num;
 	
-	public HSBColor(int num)
+	public NumColor(int num)
 	{
-		this.num = num;
-		
-		setColor(num);
-		/*color[0]= HSBColorData.N0;
-		color[1]= HSBColorData.N1;
-		color[2]= HSBColorData.N2;
-		color[3]= HSBColorData.N3;
-		color[4]= HSBColorData.N4;
-		color[5]= HSBColorData.N5;
-		color[6]= HSBColorData.N6;
-		color[7]= HSBColorData.N7;
-		color[8]= HSBColorData.N8;
-		color[9]= HSBColorData.N9;
-		color[10]= HSBColorData.N10;
-		color[11]= HSBColorData.N11;
-		color[12]= HSBColorData.N12;
-		color[13]= HSBColorData.N13;
-		color[14]= HSBColorData.N14;*/
+		this.num = num;		
+		setColor(num);		
 	}
 	public void setColor(int num)
 	{
